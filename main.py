@@ -17,12 +17,12 @@ def send_discord_webhook(webhook_url, content):
 
 # Example usage:
 if __name__ == "__main__":
-    # Replace webhook sem s webhook linkom
-    webhook_url = 'https://discord.com/api/webhooks/1171917799451545620/4vIld5YItk_gqjeTZRVuYwN_zAxRuPkaJFIAU9K2U-r2TCkp7jv8bQnt43sy9zhwT3mg'
+    # Replace LINK with webhook
+    webhook_url = 'LINK'
     
     while True:
-        # Replace text sem s contentom
-        content = '@everyone TENTO ANTICHEAT JE SCAM ! JE TO CISTA RATKA / GAMESENSE.PUB'
+        # Replace TEXT with text that you want to spam
+        content = 'TEXT'
 
         response = send_discord_webhook(webhook_url, content)
 
